@@ -1,0 +1,26 @@
+header { min-height: 40vh;
+display:flex;
+justify-content:center;
+align-items: center;}
+li { display:inline-block;
+justify-content: space-between;
+margin-left: 20vw;}
+.Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20vh 20vh;
+}
+.A {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+.B {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.C {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}

@@ -24,3 +24,8 @@ margin-left: 20vw;}
   grid-row-start: 2;
   grid-column-start: 3;
 }
+.imgheader
+{
+  width: 50px ;
+  margin-right: 80%;
+}
